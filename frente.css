@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans%3Awght%40700&family=Poppins%3Awght%40600&display=swap%27%29%3B);
+* {
+
+margin: 0;
+padding: 0;
+outline: 0;
+box-sizing: border-box;
+
+}
+
+
+body {
+    background-image: url('https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_DeadByDaylight_image1600w.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+html {
+
+  font-size:  62.5%;
+}
+
+head, body{
+
+height: 100%;
+
+}
+
+header {
+background: linear-gradient(90deg, #131414, #000000, #131414);
+
+}
+
+
+
+header .navegaçao {
+
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 90%;
+  max-width: 1100%;
+  margin: auto;
+
+}
+ 
+nav ul {
+   display: flex;
+
+} 
+nav ul li {
+list-style: none;
+}
+
+nav ul li a {
+
+  text-decoration: none;
+  color: rgb(245, 245, 220);
+  font-size: 2rem;
+  margin-left: 50px;
+  padding:6px 10px;
+  font-family: 'carter one';
+
+}
+
+nav ul li a:hover {
+
+  background-color:#000000;
+  transition: 0,3s;
+}
+
+@media(Max-width: 964px) {
+
+  html {
+
+    font-size: 50%;
+  }
+}
+
+
+.text-dead {
+    
+  color: rgba(255, 255, 255, 0.849);
+      margin: 15%;
+      font-size: 50px;
+      font-family: 'Permanent Marker';
+      text-decoration: underline;
+      line-height: 25px;
+    height: 600px;
+  text-align: center;
+  background-color: #000000d2;
+   
+    
+    }
+  
+    p{
+      
+       font-size: 25px;
+      font-family: caveat;
+      line-height: 1.5;
+    }
+  
+    body {
+      width: 100%;
+      min-height: 100vh;
+      place-content: center;
+      background-image: url('https://deadbydaylight.com/static/aa669d23281d14adcb3ab2e514939bc1/49886/dbd_keyart_4c78f56a30.jpg');
+    }
+  
+    .dica-text {
+      font-size: 30px;
+      padding-left: 5%;
+      color: rgb(255, 255, 255);
+    }
+
+    .dica {
+      background-color: #000000d2;
+color: rgb(255, 255, 255);
+      font-size: 20px;
+      font-family: 'Play';
+      padding-left: 5%;
+      line-height: 70px;
+    }
+
+  .footer {
+    
+
+    background-color: #000000f5;
+    color: rgb(255, 255, 255);
+  }
+
+  .NEGRITO {
+    color: rgb(255, 255, 255);
+  }

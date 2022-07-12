@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans%3Awght%40700&family=Poppins%3Awght%40600&display=swap%27%29%3B);
+* {
+
+margin: 0;
+padding: 0;
+outline: 0;
+box-sizing: border-box;
+
+}
+
+
+body {
+    background-image: url('https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_DeadByDaylight_image1600w.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+html {
+
+  font-size:  62.5%;
+}
+
+html, body{
+
+height: 100%;
+
+}
+
+header {
+background: linear-gradient(90deg, #131414, #000000, #131414);
+
+}
+
+.logo h1{
+
+  font-family: noto sans-serif
+}
+
+
+header .container {
+
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 90%;
+  max-width: 1100%;
+  margin: auto;
+
+}
+ 
+nav ul {
+   display: flex;
+
+} 
+nav ul li {
+list-style: none;
+}
+
+nav ul li a {
+
+  text-decoration: none;
+  color: rgb(245, 245, 220);
+  font-size: 2rem;
+  margin-left: 50px;
+  padding:6px 10px;
+  font-family: Poppins;
+
+}
+
+nav ul li a:hover {
+
+  background-color:#ffffff34;
+  transition: 0,3s;
+}
+
+@media(Max-width: 964px) {
+
+  html {
+
+    font-size: 50%;
+  }
+}

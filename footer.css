@@ -1,0 +1,29 @@
+footer ul {
+    display: flex;
+ 
+ } 
+footer ul li {
+ list-style: none;
+ }
+ 
+footer ul li a {
+ 
+   text-decoration: none;
+   color: rgb(245, 245, 220);
+   font-size: 3rem;
+   margin-left: 200px;
+   padding:0px 90px;
+   font-family: Poppins;
+   
+ 
+ }
+ 
+footer ul li a:hover {
+ 
+   background-color:#ffffff34;
+   transition: 0,3s;
+ }
+ 
+ .botaoabaixo {
+   background: linear-gradient(90deg, #131414, #000000, #131414);
+}
